@@ -2,12 +2,12 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+            {{ __('ЛОГ использования отчетов и обработок 1с') }}
         </h2>
     </x-slot>
     <div>
         <div>                            
-        <h2>ЛОГ использования отчетов и обработок 1с</h2>
+        
 
 <table>
   <tr>
