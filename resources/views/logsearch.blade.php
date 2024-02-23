@@ -4,11 +4,8 @@
             {{ __('Поиск логов') }}
         </h2>
     </x-slot>
-    <div>
-        <div>                            
-                <div class="max-w-7xl mx-auto p-6 lg:p-8">
-                <div class="border-2 border-black dark:border-gray-200">
-                    <form action="/viewlog/" enctype="multipart/form-data" method="get">
+                <div id="myform" style="all:unset">    
+                <form action="/viewlog/" enctype="multipart/form-data" method="get">
                         <label>Имя пользователя</label>
                         <br>
                         <input name="username" type="username">
@@ -27,13 +24,8 @@
                         <br><br>
                         <input type="submit" value="Найти">
                     </form>
-                </div>             
-                </div>         
-        </div>
-    </div>
-    
-
-
+                </div>
+                
                 
 </x-app-layout>
 

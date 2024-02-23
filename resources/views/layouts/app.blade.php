@@ -29,6 +29,11 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+#myform {
+   all: unset;
+}
+
 </style>
     </head>
     <body class="font-sans antialiased">
